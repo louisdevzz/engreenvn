@@ -2,7 +2,7 @@
 # Banner
 banner:
   title: "Introdution"
-  content: "The project <em>&#34;Scientific English Immersion with Hands-on Experimentation on Microbial Plastic Degradation in Vietnam&#34;</em> &nbsp;by Assoc. Prof. Dr. Meden Isaac-Lam and Dr. Nhon Dang, alumni from the Fulbright U.S. Scholar Program and Fulbright Study of the U.S. respectively, and their collaborators, won the 2024 Citizen Diplomacy Action Fund (CDAF) competition funded by the U.S. Department of State [(<b>See Here</b>)](https://alumni.state.gov/welcome-us-exchange-alumni/citizen-diplomacy-action-fund-cdaf/2024-winners)."
+  content: "The project <em>&#34;Scientific English Immersion with Hands-on Experimentation on Microbial Plastic Degradation in Vietnam&#34;</em> &nbsp;by Assoc. Prof. Dr. Meden Isaac-Lam and Dr. Nhon Dang, alumni from the Fulbright U.S. Scholar Program and Fulbright Study of the U.S. respectively, and their collaborators, won the 2024 Citizen Diplomacy Action Fund (CDAF) competition funded by the U.S. Department of State (<a target='_blank' href='https://alumni.state.gov/welcome-us-exchange-alumni/citizen-diplomacy-action-fund-cdaf/2024-winners'><b>https://alumni.state.gov/welcome-us-exchange-alumni/citizen-diplomacy-action-fund-cdaf/2024-winners</b></a>)."
   image: "/images/banner.png"
   button:
     enable: true
