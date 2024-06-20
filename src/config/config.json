@@ -1,14 +1,14 @@
 {
   "site": {
     "title": "UNCONFERENCEVN",
-    "base_url": "",
+    "base_url": "https://tesolunconferencevn.vercel.app/",
     "base_path": "/",
     "trailing_slash": false,
     "favicon": "/assets/logo.png",
     "logo": "/assets/logo.png",
     "logo_darkmode": "/images/logo-darkmode.png",
-    "logo_width": "60",
-    "logo_height": "60",
+    "logo_width": "70",
+    "logo_height": "70",
     "logo_text": "Nextplate"
   },
 

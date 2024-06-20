@@ -5,43 +5,35 @@
       "url": "/"
     },
     {
-      "name": "About",
-      "url": "/about"
-    },
-    {
-      "name": "Elements",
-      "url": "/elements"
-    },
-    {
-      "name": "Pages",
-      "url": "",
+      "name": "Programs & Discussion Topics",
+      "url":"",
       "hasChildren": true,
-      "children": [
+      "children":[
         {
-          "name": "Contact",
-          "url": "/contact"
+          "name":"Programs & Discussion Topics",
+          "url": ""
         },
         {
-          "name": "Blog",
-          "url": "/blog"
-        },
-        {
-          "name": "Authors",
-          "url": "/authors"
-        },
-        {
-          "name": "Categories",
-          "url": "/categories"
-        },
-        {
-          "name": "Tags",
-          "url": "/tags"
-        },
-        {
-          "name": "404 Page",
-          "url": "/404"
+          "name":"Meet Our Facilitators",
+          "url":""
         }
       ]
+    },
+    {
+      "name":"Participants",
+      "url":"/participants"
+    },
+    {
+      "name":"Sponsors",
+      "url": "/sponsors"
+    },
+    {
+      "name":"Photos and Videos",
+      "url" :"/photos"
+    },
+    {
+      "name":"Contacts Us",
+      "url":"/contacts"
     }
   ],
   "footer": [

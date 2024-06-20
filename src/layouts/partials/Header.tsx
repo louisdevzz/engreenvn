@@ -35,11 +35,31 @@ const Header = ({
     >
       <nav className="navbar container">
         {/* logo */}
-        <div className="order-0 flex flex-row gap-2">
-          <Logo  lang={lang} />
-          <div className="flex flex-col justify-center items-start">
-            <p className="font-bold text-2xl text-[#324350]">UNCONFERENCEVN</p>
-            <small className="font-semibold text-[#324350]">Unleash innovative ideas to transform English Education</small>
+        <div className="order-0 flex flex-row gap-2 w-full items-center justify-between">
+          <div className="flex flex-row gap-3">
+            <Logo lang={lang} />
+            <div className="flex flex-col justify-center items-start">
+              <p className="font-bold lg:text-3xl md:text-2xl text-2xl text-[#324350] underline">UNCONFERENCEVN</p>
+              <small className="font-semibold lg:text-lg md:text-sm text-[#324350]">Unleash innovative ideas to transform English Education</small>
+            </div>
+          </div>
+          <div className="flex flex-row gap-4 pr-5 text-center">
+            <div className="flex flex-row gap-4 rounded-lg border border-gray-400 px-5 py-2">
+              <div className="flex flex-col text-center">
+                <p className="text-xl font-semibold">08</p>
+                <small>days</small>
+              </div>
+              <p className="font-semibold">:</p>
+              <div className="flex flex-col text-center">
+                <p className="text-xl font-semibold">00</p>
+                <small>hours</small>
+              </div>
+              <p className="font-semibold">:</p>
+              <div className="flex flex-col text-center">
+                <p className="text-xl font-semibold">00</p>
+                <small>minutes</small>
+              </div>
+            </div>
           </div>
         </div>
         {/* navbar toggler */}
