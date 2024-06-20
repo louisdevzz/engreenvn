@@ -1,10 +1,10 @@
 {
   "site": {
     "title": "ENGREENVN",
-    "base_url": "https://tesolunconferencevn.vercel.app/",
+    "base_url": "https://engreenvn.vercel.app/",
     "base_path": "/",
     "trailing_slash": false,
-    "favicon": "/assets/logo.png",
+    "favicon": "/assets/logo-engreen.png",
     "logo": "/assets/logo-engreen.png",
     "logo_darkmode": "/images/logo-darkmode.png",
     "logo_width": "90",
@@ -44,7 +44,7 @@
 
   "metadata": {
     "meta_author": "ENGREENVN",
-    "meta_image": "/assets/action.png",
-    "meta_description": "Where Words Grow Green"
+    "meta_image": "/assets/action.jpg",
+    "meta_description": "Scientific English Immersion with Hands-on Experimentation on Microbial Plastic Degradation in Vietnam"
   }
 }
