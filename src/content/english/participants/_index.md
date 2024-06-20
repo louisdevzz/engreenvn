@@ -1,7 +1,7 @@
 ---
 title: "Hey, I am John Doe!"
 meta_title: "Participants - ENGREENVN"
-description: "this is meta description"
+description: "Discover the importance of participation and unlock new opportunities. Join us to learn why getting involved is key to personal growth and success."
 image: "/assets/american.jpg"
 draft: false
 ---
