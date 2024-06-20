@@ -83,7 +83,7 @@ const Testimonials = ({ data }: { data: PageData }) => {
                               <ImageFallback
                                 height={50}
                                 width={50}
-                                className="rounded-full"
+                                className="rounded-full border-2 border-gray-300"
                                 src={item.avatar}
                                 alt={item.name}
                               />

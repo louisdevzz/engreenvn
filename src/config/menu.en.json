@@ -5,19 +5,12 @@
       "url": "/"
     },
     {
-      "name": "Programs & Discussion Topics",
-      "url":"",
-      "hasChildren": true,
-      "children":[
-        {
-          "name":"Programs & Discussion Topics",
-          "url": ""
-        },
-        {
-          "name":"Meet Our Facilitators",
-          "url":""
-        }
-      ]
+      "name": "Program",
+      "url":"/program"
+    },
+    {
+      "name": "Mentors",
+      "url":"/mentors"
     },
     {
       "name":"Participants",

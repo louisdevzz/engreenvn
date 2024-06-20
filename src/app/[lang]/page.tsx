@@ -9,7 +9,7 @@ import Testimonials from "@/partials/Testimonials";
 import { Button, Feature } from "@/types";
 import Link from "next/link";
 import path from "path";
-import { FaCheck } from "react-icons/fa";
+import { GoHorizontalRule } from "react-icons/go";
 
 // remove dynamicParams
 export const dynamicParams = false;
@@ -62,13 +62,13 @@ const Home = ({ params }: { params: { lang: string } }) => {
                 />
               </div>
             )}
-            <div className="lg:col-7 mt-10 md:col-9 mb-8 text-center">
+            <div className="mt-20">
               <h1
                 className="mb-4 text-h3 lg:text-h1"
                 dangerouslySetInnerHTML={markdownify(banner.title)}
               />
-              <p
-                className="mb-8"
+              <div
+                className="mb-8 w-full"
                 dangerouslySetInnerHTML={markdownify(banner.content ?? "")}
               />
             </div>
@@ -79,7 +79,7 @@ const Home = ({ params }: { params: { lang: string } }) => {
       {features.map((feature, index: number) => (
         <section
           key={index}
-          className={`section-sm ${index % 2 === 0 && "bg-gradient"}`}
+          className={`section-sm -mt-20 ${index % 2 === 0 && "bg-gradient"}`}
         >
           <div className="container">
             <div className="items-center justify-between">
@@ -104,11 +104,18 @@ const Home = ({ params }: { params: { lang: string } }) => {
                   className="mb-4"
                   dangerouslySetInnerHTML={markdownify(feature.title)}
                 />
-                <p
+                <div
                   className="mb-8 text-lg"
                   dangerouslySetInnerHTML={markdownify(feature.content)}
                 />
-              
+                <ul>
+                  {feature.bulletpoints&&feature.bulletpoints.map((bullet: string) => (
+                    <li className="relative mb-4 pl-6 flex flex-row" key={bullet}>
+                      <GoHorizontalRule className={"absolute left-0 top-1.5"} />
+                      <p dangerouslySetInnerHTML={markdownify(bullet)} />
+                    </li>
+                  ))}
+                </ul>
                 {feature.button.enable && (
                   <Link
                     className="btn btn-primary mt-5"

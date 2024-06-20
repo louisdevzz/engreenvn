@@ -2,7 +2,7 @@
 # Banner
 banner:
   title: "Introdution"
-  content: "Nextplate is a free starter template built with Next and TailwindCSS, providing everything you need to jumpstart your Next project and save valuable time."
+  content: "The project <em>&#34;Scientific English Immersion with Hands-on Experimentation on Microbial Plastic Degradation in Vietnam&#34;</em> &nbsp;by Assoc. Prof. Dr. Meden Isaac-Lam and Dr. Nhon Dang, alumni from the Fulbright U.S. Scholar Program and Fulbright Study of the U.S. respectively, and their collaborators, won the 2024 Citizen Diplomacy Action Fund (CDAF) competition funded by the U.S. Department of State [(<b>See Here</b>)](https://alumni.state.gov/welcome-us-exchange-alumni/citizen-diplomacy-action-fund-cdaf/2024-winners)."
   image: "/images/banner.png"
   button:
     enable: true
@@ -14,22 +14,21 @@ features:
   - title: "Description"
     image: "/images/service-1.png"
     content: "
-    Science and technology are central in the continuity of human life. Technological growth fulfills basic human needs to sustain and improve quality of life. Communication is the other key factor driving innovations and scientific breakthroughs. English is considered the universal language in science to exchange ideas globally by emails, publications, or conferences.<br/><br/>
-    Vietnam is a developing country success story for the last forty years. Aggressive economic reforms propelled the country from the bottom of being one of the poorest to a middle-income economy in one generation. With a projected economic growth in the next decade, Vietnam faces enormous challenges to meet the demands and consequences of progress. Associated with economic prosperity is increased transportation, agriculture and industrial production that can compromise the environment.  <b>Vietnam</b> is among the top countries in the world that contributes to 60% of plastic waste in the ocean. Plastic pollution is an environmental emergency in the country affecting the marine ecosystem. Environmental degradation also causes potential health problems among the population.
+    Under the themes of <em>protecting the Environment, and Building Community Through Language and Technology</em>, the project aims to inform the next generation in Vietnam on ways to protect their environment. Our approach is to provide training and education about the environment for the health and well-being of the community. Instruction will be accomplished in English being the universal language as the tool in learning. Having green, clean and sustainable environment creates responsible business practices that can boost the economy. Knowledge and application of good science and state-of-the-art technology will position the country for global competition.<br/><br/>
+    <div style='margin: auto;width: 50%;'>
+      <img src='/assets/project.png' alt='banner'/>
+    </div>
     <br/><br/>
-    As Vietnam embarks in its quest for global competition and economic progress, a solution to prepare the young generation to protect the environment is through education. The country needs scientists and engineers who can understand the latest technology and effectively communicate in English.
-    <br/><br/>
-    Providing a research-oriented workshop to perform hands-on experimentation on how to microbially degrade plastic in a laboratory setting will open an opportunity for the participants to learn science. Additionally, participants will learn how to read scientific journals and write manuscripts in English. Instructions and interactions of participants with faculty mentors will be conducted in English either in-person or virtually, if possible.
-    <br/><br/>
-    This project will serve as a template to merge science and English, and to raise awareness among participants and the community about the impact of plastic pollution in the environment.
+    The <b>approach</b> of this project in addressing the challenges of pollution in Vietnam can be summarized in several interconnecting categories to provide <b><u>TheBEST</u></b> for the future generation in Vietnam. 
     "
     bulletpoints:
-      - "10+ Pre-build pages"
-      - "95+ Google Pagespeed Score"
-      - "Build with Next and TailwindCSS for easy and customizable styling"
-      - "Fully responsive on all devices"
-      - "SEO-optimized for better search engine rankings"
-      - "**Open-source and free** for personal and commercial use"
+      - "<b>T</b>raining, Teaching and Education"
+      - "<b>H</b>ealth and Well-being"
+      - "<b>E</b>nglish as Universal Language"
+      - "<b>B</b>usiness Practices"
+      - "<b>E</b>nvironmental Protection"
+      - "<b>S</b>cience"
+      - "<b>T</b>echnology"
     button:
       enable: false
       label: "Get Started Now"
@@ -40,28 +39,17 @@ features:
     content: "
       <b>Objective 1:</b> Enriching the level of English and science education in universities through reading several peer-reviewed scientific publications specifically about plastic pollution, and writing manuscript review. This will open opportunity for non-science (other majors aside from science) participants to learn science and technology, and for science participants to uplift their English level into an international competence.
       <br/><br/>
-      – Prepare 30 selected from the Mekong Delta Universities and the universities in the Southeast of Vietnam on English scientific vocabulary and terminologies for academic purposes.
-      <br/><br/>
-      – Organize 2 half-day workshops regarding online search of information focused on pollution, categorizing journals as a review or an original article, learning the components of a scientific publication, writing a draft summarizing information from five relevant papers related to plastic pollution, recycling or degradation. The workshops may be conducted virtually.
-      <br/><br/>
       <b>Objective 2:</b> Motivating participants to learn technology, science, and business in protecting the environment by providing access to computer simulation, in-person hands-on experimentation on microbial plastic degradation, and business workshop. This will raise awareness on the impact of plastic pollution on the ecosystem, the economy, and human health.
       <br/><br/>
-      – Coordinate 3 half-day workshops to watch and discuss molecular simulation and docking of plastic components on plastic-eating enzymes in worms.
-      <br/><br/>
-      – Coordinate 3 half-day informative workshops on the impact of green, clean and sustainable environment on the business sector and the economy.
-      <br/><br/>
-      – Organize 4 half-day lab sessions to learn lab safety, basic skills in performing experiments in biology, specifically, to degrade plastic using worms, and analyze the degradation products by chemical or spectroscopic methods.
-      <br/><br/>
-      – Offer instructions to participants about techniques in writing scientific experimental results.
-      <br/><br/>
-      – Participants write a journal-style lab report about the experiment, and a proposal on how to protect the environment from plastic pollution. A prize ($300-500) will be offered to the 3 best write-ups and the 3 best proposals. Writing scientific manuscript in English for peer-reviewed submission will include techniques and skills in writing title, abstract, background information (literature review), experimental part, results, discussion, conclusion, references, and acknowledgements.
-      <br/><br/>
-      – Conduct a survey from selected participants and from the original pool of potential participants if the project triggered awareness of plastic pollution in the region
+      To achieve its purpose, the unconference aims to recruit its participants under the <b>C-H-A-N-G-E</b> criteria:
     "
     bulletpoints:
-      - "Zero JS, by default: No JavaScript runtime overhead to slow you down."
-      - "Customizable: Tailwind, MDX, and 100+ other integrations to choose from."
-      - "UI-agnostic: Supports React, Preact, Svelte, Vue, Solid, Lit and more."
+      - "<b>C</b>ommitment and Creativity "
+      - "<b>H</b>armonious Collaboration and Cooperation"
+      - "<b>A</b>ctive Engagement and Learning"
+      - "<b>N</b>etwork and Progress "
+      - "<b>G</b>rowth and Adaptability"
+      - "<b>E</b>nthusiasm and Community Building"
     button:
       enable: false
       label: "Get Started Now"
