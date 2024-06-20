@@ -38,13 +38,13 @@
 
   "disqus": {
     "enable": true,
-    "shortname": "themefisher-template",
+    "shortname": "UNCONFERENCEVN",
     "settings": {}
   },
 
   "metadata": {
-    "meta_author": "Themefisher",
-    "meta_image": "/images/og-image.png",
-    "meta_description": "Next Boilerplate"
+    "meta_author": "UNCONFERENCEVN",
+    "meta_image": "/assets/action.png",
+    "meta_description": "UNCONFERENCEVN"
   }
 }
