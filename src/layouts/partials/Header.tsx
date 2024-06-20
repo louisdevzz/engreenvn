@@ -36,27 +36,27 @@ const Header = ({
       <nav className="navbar container">
         {/* logo */}
         <div className="order-0 flex flex-row gap-2 w-full items-center justify-between">
-          <div className="flex flex-row gap-5">
+          <div className="flex flex-row gap-5 ">
             <Logo lang={lang} />
             <div className="flex flex-col justify-center items-start">
               <p className="font-bold lg:text-3xl md:text-2xl text-2xl text-[#324350] underline">ENGREENVN</p>
               <small className="font-semibold lg:text-lg md:text-sm text-[#324350c7] italic">Empowering English Education Through Innovative Ideas</small>
             </div>
           </div>
-          <div className="flex flex-row gap-4 pr-5 text-center">
+          <div className="md:flex hidden flex-row gap-4 pr-5 text-center">
             <div className="flex flex-row gap-4 rounded-lg border border-gray-400 px-5 py-2">
               <div className="flex flex-col text-center">
-                <p className="text-xl font-semibold">08</p>
+                <p className="text-sm lg:text-xl font-semibold">08</p>
                 <small>days</small>
               </div>
               <p className="font-semibold">:</p>
               <div className="flex flex-col text-center">
-                <p className="text-xl font-semibold">00</p>
+                <p className="text-sm lg:text-xl font-semibold">00</p>
                 <small>hours</small>
               </div>
               <p className="font-semibold">:</p>
               <div className="flex flex-col text-center">
-                <p className="text-xl font-semibold">00</p>
+                <p className="text-sm lg:text-xl font-semibold">00</p>
                 <small>minutes</small>
               </div>
             </div>
@@ -145,7 +145,7 @@ const Header = ({
               )}
             </React.Fragment>
           ))}
-          {navigation_button.enable && (
+          {/* {navigation_button.enable && (
             <li className="mt-4 inline-block lg:hidden">
               <Link
                 className="btn btn-outline-primary btn-sm"
@@ -154,7 +154,7 @@ const Header = ({
                 {navigation_button.label}
               </Link>
             </li>
-          )}
+          )} */}
         </ul>
         <div className="order-1 ml-auto flex items-center md:order-2 lg:ml-0">
           {settings.search && (

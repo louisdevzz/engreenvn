@@ -38,13 +38,13 @@
 
   "disqus": {
     "enable": true,
-    "shortname": "UNCONFERENCEVN",
+    "shortname": "ENGREENVN",
     "settings": {}
   },
 
   "metadata": {
-    "meta_author": "UNCONFERENCEVN",
+    "meta_author": "ENGREENVN",
     "meta_image": "/assets/action.png",
-    "meta_description": "UNCONFERENCEVN"
+    "meta_description": "Where Words Grow Green"
   }
 }

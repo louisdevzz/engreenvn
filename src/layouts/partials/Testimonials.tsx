@@ -4,8 +4,7 @@ import ImageFallback from "@/helpers/ImageFallback";
 import { markdownify } from "@/lib/utils/textConverter";
 import { Testimonial } from "@/types";
 import "swiper/css";
-import { Autoplay, Pagination } from "swiper/modules";
-import { Swiper, SwiperSlide } from "swiper/react";
+
 
 interface PageData {
   notFound?: boolean;
@@ -22,10 +21,10 @@ const Testimonials = ({ data }: { data: PageData }) => {
   return (
     <>
       {data.frontmatter.enable && (
-        <section className="section">
+        <section className="section -mt-20">
           <div className="container">
-            <div className="row">
-              <div className="mx-auto mb-12 text-center md:col-10 lg:col-8 xl:col-6">
+            <div className="">
+              <div className="mx-auto mb-12 text-center ">
                 <h2
                   dangerouslySetInnerHTML={markdownify(data.frontmatter.title)}
                   className="mb-4"
@@ -36,30 +35,10 @@ const Testimonials = ({ data }: { data: PageData }) => {
                   )}
                 />
               </div>
-              <div className="col-12">
-                <Swiper
-                  modules={[Autoplay, Pagination]}
-                  pagination={{ clickable: true }}
-                  loop={true}
-                  centeredSlides={true}
-                  autoplay={{
-                    delay: 2500,
-                    disableOnInteraction: false,
-                  }}
-                  spaceBetween={24}
-                  breakpoints={{
-                    768: {
-                      slidesPerView: 2,
-                    },
-                    992: {
-                      slidesPerView: 3,
-                    },
-                  }}
-                >
-                  {data.frontmatter.testimonials.map(
+              <div className="relative grid grid-cols-1 gap-5 md:grid-cols-2 lg:grid-cols-3">
+              {data.frontmatter.testimonials.map(
                     (item: Testimonial, index: number) => (
-                      <SwiperSlide key={index}>
-                        <div className="rounded-lg min-h-[386px] bg-theme-light px-7 py-10 dark:bg-darkmode-theme-light">
+                      <div key={index} className="rounded-lg pb-[8rem] lg:pb-[8rem] bg-theme-light px-7 relative py-10 dark:bg-darkmode-theme-light">
                           <div className="text-dark dark:text-white">
                             <svg
                               width="33"
@@ -78,7 +57,7 @@ const Testimonials = ({ data }: { data: PageData }) => {
                             className="mt-8"
                             dangerouslySetInnerHTML={markdownify(item.content)}
                           />
-                          <div className="mt-11 absolute bottom-6 flex items-center">
+                          <div className="mt-11 absolute bottom-5 flex items-center">
                             <div className="text-dark dark:text-white">
                               <ImageFallback
                                 height={50}
@@ -102,10 +81,8 @@ const Testimonials = ({ data }: { data: PageData }) => {
                             </div>
                           </div>
                         </div>
-                      </SwiperSlide>
                     ),
                   )}
-                </Swiper>
               </div>
             </div>
           </div>

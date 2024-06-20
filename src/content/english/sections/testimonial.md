@@ -5,35 +5,35 @@ description: ""
 
 # Testimonials
 testimonials:
-  - name: "Meden F. Isaac-Lam, Ph.D"
+  - name: "Meden F. Isaac-Lam, Ph.D."
     designation: "Associate Professor of Chemistry"
     avatar: "/images/avatar-sm.png"
     content: "<b>Team Lead</b>
     <br/>
     The project implementer leads, organizes, and instructs participants in reading and writing journal-style scientific manuscripts, providing instructions on laboratory safety, ethics, data acquisition, and manuscript submission, while coordinating team members' goals."
 
-  - name: "Nhon Dang, Ph.D"
+  - name: "Nhon Dang, Ph.D."
     designation: "Dean, School of Languages"
     avatar: "/assets/teams/nhon-dang.jpg"
     content: "<b>Team Co-Lead</b>
     <br/>
     Responsibilities as Implementer: Screen participants for their English level and assess progress of participants before and after completion of the project; teach English for academic purposes and English for science and technology."
 
-  - name: "Quang Ta Van, Ph.D"
+  - name: "Quang Ta Van, Ph.D."
     designation: "Vice Dean, School of Biotechnology"
     avatar: "/images/avatar-sm.png"
     content: "<b>Team Member</b>
     <br/>
     Responsibilities as Implementer: Supervise and mentor participants on the hands-on experiments on how to degrade plastic using biological methods in the laboratory setting; recruit lab assistant to help execute experiments."
 
-  - name: "Dien Nguyen Thanh, Ph.D"
+  - name: "Dien Nguyen Thanh, Ph.D."
     designation: "Head of Research Office"
     avatar: "/assets/teams/nguyen-dien.jpg"
     content: "<b>Team Member</b>
     <br/>
     Responsibilities as Implementer: Assist in the recruitment of participants from several universities in the Mekong Delta via social media."
 
-  - name: "Dung Cao, Ph.D"
+  - name: "Dung Cao, Ph.D."
     designation: "Dean, School of Information Technology"
     avatar: "/images/avatar-sm.png"
     content: "<b>Team Member</b>

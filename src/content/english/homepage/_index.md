@@ -54,4 +54,16 @@ features:
       enable: false
       label: "Get Started Now"
       link: "https://github.com/zeon-studio/nextplate"
+
+  - title: "Timeline"
+    image: "/images/service-2.png"
+    content: ""
+    bulletpoints:
+      - "July 2024: <b>Online</b> training with 04 modules divided into each weekend"
+      - "August 2024: <b>On-site</b> training at Tan Tao University, Long An"
+      - "September 2024: <b>Online</b> A&Q and orientation "
+    button:
+      enable: false
+      label: "Get Started Now"
+      link: "https://github.com/zeon-studio/nextplate"
 ---
