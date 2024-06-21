@@ -6,8 +6,6 @@ import { getListPage, getSinglePage } from "@/lib/contentParser";
 import { getActiveLanguages, getLanguageObj } from "@/lib/languageParser";
 import { getAllTaxonomy, getTaxonomy } from "@/lib/taxonomyParser";
 import { sortByDate } from "@/lib/utils/sortFunctions";
-import PageHeader from "@/partials/PageHeader";
-import PostSidebar from "@/partials/PostSidebar";
 import SeoMeta from "@/partials/SeoMeta";
 import { Post } from "@/types";
 import path from "path";
@@ -45,34 +43,25 @@ const Posts = ({ params }: { params: { lang: string } }) => {
         description={description}
         image={image}
       />
-      <PageHeader title={postIndex.frontmatter.title}>
-        <Breadcrumbs lang={params.lang} />
-      </PageHeader>
-      <section className="section">
+      <section className="section -mt-20">
         <div className="container">
           <div className="row gx-5">
-            <div className="lg:col-8">
-              <div className="row">
+            <div className="w-full">
+              <h5>Coming Soon</h5>
+              {/* <div className="row">
                 {currentPosts.map((post: any, index: number) => (
                   <div key={index} className="mb-14 md:col-6">
                     <BlogCard data={post} lang={params.lang} />
                   </div>
                 ))}
-              </div>
-              <Pagination
+              </div> */}
+              {/* <Pagination
                 lang={params.lang}
                 section={blog_folder}
                 currentPage={1}
                 totalPages={totalPages}
-              />
+              /> */}
             </div>
-
-            <PostSidebar
-              categories={categories}
-              tags={tags}
-              allCategories={allCategories}
-              lang={params.lang}
-            />
           </div>
         </div>
       </section>

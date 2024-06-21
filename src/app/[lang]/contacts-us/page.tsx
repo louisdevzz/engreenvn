@@ -33,7 +33,7 @@ const Contact = async ({ params }: { params: { lang: string } }) => {
         <h5>Please contact us through following information:</h5>
         <div className="flex flex-col mt-5">
           <span>Email: envirolish2024@gmail.com</span>
-          <span>Phone: 0763550172 (Mr. Thanh Dien)</span>
+          <span>Phone: 0763550172 (Dr. Thanh Dien)</span>
           <span>Address: Tân Đức, Đức Hòa, E.City Đức Hòa Long An, Vietnam</span>
         </div>
         <div className="flex flex-row items-center justify-center mt-20">

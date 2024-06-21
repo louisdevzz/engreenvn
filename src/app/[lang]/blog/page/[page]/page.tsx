@@ -48,11 +48,10 @@ const Posts = ({ params }: { params: { page: number; lang: string } }) => {
         description={description}
         image={image}
       />
-      <PageHeader title={postIndex.frontmatter.title} />
       <section className="section">
         <div className="container">
           <div className="row gx-5">
-            <div className="lg:col-8">
+            <div className="w-full">
               <div className="row">
                 {currentPosts.map((post: any, index: number) => (
                   <div key={index} className="mb-14 md:col-6">
@@ -67,13 +66,6 @@ const Posts = ({ params }: { params: { page: number; lang: string } }) => {
                 totalPages={totalPages}
               />
             </div>
-
-            <PostSidebar
-              categories={categories}
-              tags={tags}
-              allCategories={allCategories}
-              lang={params.lang}
-            />
           </div>
         </div>
       </section>

@@ -31,7 +31,7 @@ testimonials:
     avatar: "/assets/teams/nguyen-dien.jpg"
     content: "<b>Team Member</b>
     <br/>
-    Responsibilities as Implementer: Assist in the recruitment of participants from several universities in the Mekong Delta via social media."
+    Responsibilities as Implementer: Lecture on plastic pollution and the environment; Assist in the recruitment of participants from several universities in the Mekong Delta via social media."
 
   - name: "Dung Cao, Ph.D."
     designation: "Dean, School of Information Technology"
