@@ -9,7 +9,7 @@ const Program = ({ params }: { params: { lang: string } }) => {
   const data: RegularPage = getListPage(
     path.join(language.contentDir, "program/_index.md"),
   );
-  const { frontmatter, content } = data;
+  const { frontmatter } = data;
   const { title, meta_title, description, image } = frontmatter;
 
   return (

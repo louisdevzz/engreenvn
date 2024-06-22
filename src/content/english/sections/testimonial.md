@@ -26,19 +26,19 @@ testimonials:
     <br/>
     Responsibilities as Implementer: Supervise and mentor participants on the hands-on experiments on how to degrade plastic using biological methods in the laboratory setting; recruit lab assistant to help execute experiments."
 
-  - name: "Dien Nguyen Thanh, Ph.D."
-    designation: "Head of Research Office"
-    avatar: "/assets/teams/nguyen-dien.jpg"
-    content: "<b>Team Member</b>
-    <br/>
-    Responsibilities as Implementer: Lecture on plastic pollution and the environment; Assist in the recruitment of participants from several universities in the Mekong Delta via social media."
-
   - name: "Dung Cao, Ph.D."
     designation: "Dean, School of Information Technology"
     avatar: "/images/avatar-sm.png"
     content: "<b>Team Member</b>
     <br/>
     Responsibilities as Implementer: Demonstrate to participants the use of computer modeling on microbial and enzymatic degradation of plastic."
+
+  - name: "Dien Nguyen Thanh, Ph.D."
+    designation: "Head of Research Office"
+    avatar: "/assets/teams/nguyen-dien.jpg"
+    content: "<b>Team Member</b>
+    <br/>
+    Responsibilities as Implementer: Lecture on plastic pollution and the environment; Assist in the recruitment of participants from several universities in the Mekong Delta via social media."
 
   - name: "Nguyen Vu Hieu Trung"
     designation: "Vice Dean, School of Business"

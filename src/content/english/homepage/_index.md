@@ -41,15 +41,8 @@ features:
       <br/><br/>
       <b>Objective 2:</b> Motivating participants to learn technology, science, and business in protecting the environment by providing access to computer simulation, in-person hands-on experimentation on microbial plastic degradation, and business workshop. This will raise awareness on the impact of plastic pollution on the ecosystem, the economy, and human health.
       <br/><br/>
-      To achieve its purpose, the unconference aims to recruit its participants under the <b>C-H-A-N-G-E</b> criteria:
     "
     bulletpoints:
-      - "<b>C</b>ommitment and Creativity "
-      - "<b>H</b>armonious Collaboration and Cooperation"
-      - "<b>A</b>ctive Engagement and Learning"
-      - "<b>N</b>etwork and Progress "
-      - "<b>G</b>rowth and Adaptability"
-      - "<b>E</b>nthusiasm and Community Building"
     button:
       enable: false
       label: "Get Started Now"

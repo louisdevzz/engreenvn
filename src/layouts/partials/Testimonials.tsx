@@ -35,7 +35,7 @@ const Testimonials = ({ data }: { data: PageData }) => {
                   )}
                 />
               </div>
-              <div className="relative grid grid-cols-1 gap-5 md:grid-cols-2 lg:grid-cols-3">
+              <div className="relative grid grid-cols-1 gap-1 md:grid-cols-2 lg:grid-cols-3">
               {data.frontmatter.testimonials.map(
                     (item: Testimonial, index: number) => (
                       <div key={index} className="rounded-lg pb-[8rem] lg:pb-[8rem] bg-theme-light px-7 relative py-10 dark:bg-darkmode-theme-light">

@@ -1,8 +1,8 @@
 ---
 enable: true
-title: "Are you ready to join Unconferencevn?"
+title: "Are you ready to join ENGREENVN?"
 image: "/assets/action.jpg"
-description: "TESOL UnConferencevn 2024, funded by the US Department of State, invites Vietnamese English educators, lecturers, researchers, and administrators to transform English education through unconferencing."
+description: "Assoc. Prof. Dr. Meden Isaac-Lam and Dr. Nhon Dang&#39;s project,&quot;Scientific English Immersion with Hands-on Experimentation on Microbial Plastic Degradation in Vietnam&quot; won the 2024 Citizen Diplomacy Action Fund competition.."
 button:
   enable: true
   label: "Register Now"

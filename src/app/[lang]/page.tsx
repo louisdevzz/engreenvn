@@ -76,59 +76,59 @@ const Home = ({ params }: { params: { lang: string } }) => {
         </div>
       </section>
 
-      {features.map((feature, index: number) => (
-        <section
-          key={index}
-          className={`section-sm -mt-20 ${index % 2 === 0 && "bg-gradient"}`}
-        >
-          <div className="container">
-            <div className="items-center justify-between">
-              {/* <div
-                className={`mb:md-0 mb-6 md:col-5 ${
-                  index % 2 !== 0 && "md:order-2"
-                }`}
-              >
-                <ImageFallback
-                  src={feature.image}
-                  height={480}
-                  width={520}
-                  alt={feature.title}
-                />
-              </div> */}
-              <div
-                className={`w-full ${
-                  index % 2 !== 0 && "md:order-1"
-                }`}
-              >
-                <h2
-                  className="mb-4"
-                  dangerouslySetInnerHTML={markdownify(feature.title)}
-                />
+      <div className="-mt-[15rem]">
+        {features.map((feature, index: number) => (
+          <section
+            key={index}
+            className={`section-sm -mt-[12rem]`}
+          >
+            <div className="container">
+              <div className="items-center justify-between">
+                {/* <div
+                  className={`mb:md-0 mb-6 md:col-5 ${
+                    index % 2 !== 0 && "md:order-2"
+                  }`}
+                >
+                  <ImageFallback
+                    src={feature.image}
+                    height={480}
+                    width={520}
+                    alt={feature.title}
+                  />
+                </div> */}
                 <div
-                  className="mb-8 text-lg"
-                  dangerouslySetInnerHTML={markdownify(feature.content)}
-                />
-                <ul>
-                  {feature.bulletpoints&&feature.bulletpoints.map((bullet: string) => (
-                    <li className="relative mb-4 pl-6 flex flex-row" key={bullet}>
-                      <GoHorizontalRule className={"absolute left-0 top-1.5"} />
-                      <p dangerouslySetInnerHTML={markdownify(bullet)} />
-                    </li>
-                  ))}
-                </ul>
-                {feature.button.enable && (
-                  <Link
-                    className="btn btn-primary mt-5"
-                    href={feature.button.link}
-                  >
-                    {feature.button.label}
-                  </Link>
-                )}
+                  className={`w-full`}
+                >
+                  <h2
+                    className="mb-4 mt-10"
+                    dangerouslySetInnerHTML={markdownify(feature.title)}
+                  />
+                  <div
+                    className="mb-8 text-lg"
+                    dangerouslySetInnerHTML={markdownify(feature.content)}
+                  />
+                  <ul>
+                    {feature.bulletpoints&&feature.bulletpoints.map((bullet: string) => (
+                      <li className="relative mb-4 pl-6 flex flex-row" key={bullet}>
+                        <GoHorizontalRule className={"absolute left-0 top-1.5"} />
+                        <p dangerouslySetInnerHTML={markdownify(bullet)} />
+                      </li>
+                    ))}
+                  </ul>
+                  {feature.button.enable && (
+                    <Link
+                      className="btn btn-primary mt-5"
+                      href={feature.button.link}
+                    >
+                      {feature.button.label}
+                    </Link>
+                  )}
+                </div>
               </div>
             </div>
-          </div>
-        </section>
-      ))}
+          </section>
+        ))}
+      </div>
 
       <Testimonials data={testimonial} />
       <CallToAction data={callToAction} />
