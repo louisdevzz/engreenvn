@@ -40,7 +40,7 @@ const Header = ({
             <Logo lang={lang} />
             <div className="flex flex-col justify-center items-start">
               <p className="font-bold lg:text-3xl md:text-2xl text-2xl text-[#324350] underline">ENGREENVN</p>
-              <small className="font-semibold lg:text-lg md:text-sm text-[#324350c7] italic">Empowering English Education Through Innovative Ideas</small>
+              <small className="font-semibold lg:text-lg md:text-sm text-[#324350c7] italic">Where Words Grow Green</small>
             </div>
           </div>
           <div className="md:flex hidden flex-row gap-4 pr-5 text-center">
