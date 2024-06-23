@@ -32,7 +32,7 @@ const Sponsors = ({ params }: { params: { lang: string } }) => {
         description={description}
         image={image}
       />  
-      <section className="section-sm container -mt-20">
+      <section className="section-sm container -mt-10">
         <div className="flex flex-col gap-20">
             {sponsors.map((data: DataSponsors,index:number)=>(
                 <div key={index}>

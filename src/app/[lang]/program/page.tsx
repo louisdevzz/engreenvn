@@ -20,7 +20,7 @@ const Program = ({ params }: { params: { lang: string } }) => {
         description={description}
         image={image}
       />  
-      <section className="section-sm container -mt-20">
+      <section className="section-sm container -mt-10">
         <h5>Coming Soon</h5>
       </section>
     </>

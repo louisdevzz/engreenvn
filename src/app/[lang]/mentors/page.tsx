@@ -26,7 +26,7 @@ const Mentors = ({ params }: { params: { lang: string } }) => {
         description={description}
         image={image}
       />  
-      <section className="section-sm container -mt-20">
+      <section className="section-sm container -mt-10">
         <div className="flex flex-col gap-10 md:gap-16">
           {mentors.map((data: DataMentor)=>(
             <div className="flex flex-col md:flex-row gap-5 md:gap-14">
