@@ -33,19 +33,21 @@ const CallToAction = ({ data }: { data: PageData }) => {
                     )}
                     className="mb-2"
                   />
-                  <p
+                  {/* <p
                     dangerouslySetInnerHTML={markdownify(
                       data.frontmatter.description,
                     )}
                     className="mb-6"
-                  />
+                  /> */}
                   {data.frontmatter.button.enable && (
-                    <Link
-                      className="btn btn-primary"
-                      href={data.frontmatter.button.link}
-                    >
-                      {data.frontmatter.button.label}
-                    </Link>
+                    <div className="pt-20">
+                        <Link
+                        className="btn btn-primary"
+                        href={data.frontmatter.button.link}
+                      >
+                        {data.frontmatter.button.label}
+                      </Link>
+                    </div>
                   )}
                 </div>
               </div>
