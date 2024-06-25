@@ -31,12 +31,24 @@
   ],
   "footer": [
     {
-      "name": "Elements",
-      "url": "/elements"
+      "name": "Program",
+      "url":"/program"
     },
     {
-      "name": "Privacy Policy",
-      "url": "/privacy-policy"
+      "name": "Mentors",
+      "url":"/mentors"
+    },
+    {
+      "name":"Participants",
+      "url":"/participants"
+    },
+    {
+      "name":"Sponsors",
+      "url": "/sponsors"
+    },
+    {
+      "name":"Contacts Us",
+      "url":"/contacts-us"
     }
   ]
 }

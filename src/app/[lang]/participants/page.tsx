@@ -26,31 +26,29 @@ const Participants = ({ params }: { params: { lang: string } }) => {
       <section className="section-sm">
         <div className="container">
           <div className="row justify-center">
-            <div className="-mt-10 ">
-              <div className="flex flex-row">
-                {image && (
-                  <ImageFallback
-                    className="mb-6 mx-auto"
-                    src={image}
-                    width={220}
-                    height={120}
-                    alt={title}
-                  />
-                )}
+            <div className="-mt-10">
+              <div className="flex flex-col gap-5 md:gap-0 md:flex-row">
                 <ImageFallback
-                    className="mb-6 mx-auto"
-                    src="/assets/citizen.jpg"
-                    width={350}
-                    height={120}
-                    alt={title}
-                  />
-                  <ImageFallback
-                    className="mb-6 mx-auto"
-                    src="/assets/hcm.jpg"
-                    width={120}
-                    height={120}
-                    alt={title}
-                  />
+                  className="mb-6 mx-auto"
+                  src={"/assets/sponsors/american.jpg"}
+                  width={220}
+                  height={120}
+                  alt={"american"}
+                />
+              <ImageFallback
+                  className="mb-6 mx-auto"
+                  src="/assets/sponsors/citizen.jpg"
+                  width={350}
+                  height={120}
+                  alt={"citizen"}
+                />
+              <ImageFallback
+                className="mb-6 mx-auto"
+                src="/assets/sponsors/embassy.jpg"
+                width={120}
+                height={120}
+                alt={"embassy"}
+              />
               </div>
               <div className="content">
                 <MDXContent content={content} />

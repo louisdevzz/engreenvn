@@ -1,7 +1,12 @@
 ---
 title: "Program"
 meta_title: "Program - ENGREENVN"
-description: "Discover the importance of participation and unlock new opportunities. Join us to learn why getting involved is key to personal growth and success."
+description: "Learn about the latest initiatives and projects focused on environmental conservation at ENGREENVN. Join us in creating a more eco-friendly world!."
 image: "/assets/american.jpg"
-draft: false
+program:
+    -  title: "The training program includes online and on-site sessions as follows:"
+       bullet:
+            - "Online training with 04 modules divided into each weekend"
+            - "On-site training at Tan Tao University, Long An"
+            - "Online A&Q and orientation"
 ---

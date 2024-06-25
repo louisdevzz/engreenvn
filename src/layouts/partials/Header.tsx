@@ -2,7 +2,6 @@
 
 import LanguageSwitcher from "@/components/LanguageSwitcher";
 import Logo from "@/components/Logo";
-import ThemeSwitcher from "@/components/ThemeSwitcher";
 import config from "@/config/config.json";
 import { getActiveLanguages } from "@/lib/languageParser";
 import { slugSelector } from "@/lib/utils/slugSelector";
@@ -168,12 +167,12 @@ const Header = ({
           )}
           {/* <ThemeSwitcher className="mr-5" /> */}
 
-          {activeLanguages.length > 1 && (
+          {/* {activeLanguages.length > 1 && (
             <LanguageSwitcher
               lang={lang}
               className="mr-5 pl-2 py-1 dark:bg-darkmode-theme-light rounded"
             />
-          )}
+          )} */}
         </div>
       </nav>
     </header>
