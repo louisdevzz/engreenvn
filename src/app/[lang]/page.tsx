@@ -80,7 +80,7 @@ const Home = ({ params }: { params: { lang: string } }) => {
         {features.map((feature, index: number) => (
           <section
             key={index}
-            className={`section-sm -mt-[12rem]`}
+            className={`section-sm mt-7 md:-mt-[12rem]`}
           >
             <div className="container">
               <div className="items-center justify-between">

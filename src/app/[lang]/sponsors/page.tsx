@@ -49,17 +49,29 @@ const Sponsors = ({ params }: { params: { lang: string } }) => {
                                     alt="avatar"
                                     priority
                                 />
-                            )
-                            :(
+                            ):(
+                              sponsor.name == "TTU"?(
                                 <ImageFallback
                                     src={sponsor.image}
-                                    className="mx-auto w-[280px] h-[110px]"
-                                    width="200"
-                                    height="150"
+                                    className="mx-auto"
+                                    width="330"
+                                    height="80"
                                     alt="avatar"
                                     priority
                                 />
+                              )
+                                :(
+                                    <ImageFallback
+                                        src={sponsor.image}
+                                        className="mx-auto w-[280px] h-[110px]"
+                                        width="200"
+                                        height="150"
+                                        alt="avatar"
+                                        priority
+                                    />
+                                )
                             )
+                            
                         ))}
                     </div>
                 </div>

@@ -24,5 +24,7 @@ sponsors:
 
     - name: "Local Partners"
       content: "– Tan Tao University will sponsor the venue and support the implementation of the media outreach program."
-      sponsors: ""
+      sponsors: 
+        - name: "TTU"
+          image: "/assets/sponsors/ttu.png"
 ---

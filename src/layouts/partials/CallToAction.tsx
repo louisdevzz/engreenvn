@@ -40,7 +40,7 @@ const CallToAction = ({ data }: { data: PageData }) => {
                     className="mb-6"
                   /> */}
                   {data.frontmatter.button.enable && (
-                    <div className="pt-20">
+                    <div className="pt-5 md:pt-20">
                         <Link
                         className="btn btn-primary"
                         href={data.frontmatter.button.link}
