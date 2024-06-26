@@ -33,7 +33,7 @@ const Mentors = ({ params }: { params: { lang: string } }) => {
               {data.image?(
                 <ImageFallback
                     src={data.image}
-                    className="mx-auto w-[200px] h-[200px] md:w-[182px] md:h-[182px]"
+                    className="mx-auto object-cover w-[200px] h-[200px] md:w-[182px] md:h-[182px]"
                     width="182"
                     height="182"
                     alt="avatar"
