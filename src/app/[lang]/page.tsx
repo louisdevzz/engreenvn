@@ -76,11 +76,11 @@ const Home = ({ params }: { params: { lang: string } }) => {
         </div>
       </section>
 
-      <div className="-mt-[15rem]">
+      <div className="md:-mt-[15rem]">
         {features.map((feature, index: number) => (
           <section
             key={index}
-            className={`section-sm mt-7 md:-mt-[12rem]`}
+            className={`section-sm md:-mt-[12rem] -mt-[10rem]`}
           >
             <div className="container">
               <div className="items-center justify-between">

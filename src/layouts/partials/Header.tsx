@@ -38,8 +38,8 @@ const Header = ({
           <div className="flex flex-row gap-5 ">
             <Logo lang={lang} />
             <div className="flex flex-col justify-center items-start">
-              <p className="font-bold lg:text-3xl md:text-2xl text-2xl text-[#324350] underline">ENGREENVN</p>
-              <small className="font-semibold lg:text-lg md:text-sm text-[#324350c7] italic">Where Words Grow Green</small>
+              <p className="font-bold lg:text-3xl md:text-2xl text-3xl text-[#324350] underline">ENGREENVN</p>
+              <small className="font-semibold lg:text-lg md:text-sm text-xl text-[#324350c7] italic">Where Words Grow Green</small>
             </div>
           </div>
           <div className="md:flex hidden flex-row gap-4 pr-5 text-center">
@@ -69,7 +69,7 @@ const Header = ({
         >
           <svg
             id="show-button"
-            className="h-6 fill-current block"
+            className="h-7 fill-current block"
             viewBox="0 0 20 20"
           >
             <title>Menu Open</title>
@@ -77,7 +77,7 @@ const Header = ({
           </svg>
           <svg
             id="hide-button"
-            className="h-6 fill-current hidden"
+            className="h-7 fill-current hidden"
             viewBox="0 0 20 20"
           >
             <title>Menu Close</title>
@@ -158,7 +158,7 @@ const Header = ({
         <div className="order-1 ml-auto flex items-center md:order-2 lg:ml-0">
           {settings.search && (
             <button
-              className="border-border text-dark hover:text-primary dark:border-darkmode-border mr-5 inline-block border-r pr-5 text-xl dark:text-white dark:hover:text-darkmode-primary"
+              className="border-border h-8 text-dark hover:text-primary dark:border-darkmode-border mr-5 inline-block border-r pr-5 text-xl dark:text-white dark:hover:text-darkmode-primary"
               aria-label="search"
               data-search-trigger
             >
