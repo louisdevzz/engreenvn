@@ -47,14 +47,14 @@ const Sponsors = ({ params }: { params: { lang: string } }) => {
                                     width="180"
                                     height="50"
                                     alt="avatar"
-                                    priority
+                                    priori18
                                 />
                             ):(
                               sponsor.name == "TTU"?(
                                 <ImageFallback
                                     src={sponsor.image}
                                     className="mx-auto"
-                                    width="330"
+                                    width="280"
                                     height="80"
                                     alt="avatar"
                                     priority
