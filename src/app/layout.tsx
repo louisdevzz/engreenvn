@@ -1,6 +1,7 @@
 import config from "@/config/config.json";
 import theme from "@/config/theme.json";
 import "@/styles/main.scss";
+import { Analytics } from "@vercel/analytics/react"
 
 export default function RootLayout({
   children,
@@ -50,7 +51,10 @@ export default function RootLayout({
         />
       </head>
 
-      <body suppressHydrationWarning={true}>{children}</body>
+      <body suppressHydrationWarning={true}>
+        <Analytics/>
+        {children}
+      </body>
     </html>
   );
 }
