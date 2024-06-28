@@ -7,7 +7,7 @@ description: ""
 testimonials:
   - name: "Meden F. Isaac-Lam, Ph.D."
     designation: "Associate Professor of Chemistry"
-    avatar: "/images/avatar-sm.png"
+    avatar: "/assets/teams/meden.png"
     content: "<b>Team Lead</b>
     <br/>
     The project implementer leads, organizes, and instructs participants in reading and writing journal-style scientific manuscripts, providing instructions on laboratory safety, ethics, data acquisition, and manuscript submission, while coordinating team members' goals."
@@ -28,7 +28,7 @@ testimonials:
 
   - name: "Dung Cao, Ph.D."
     designation: "Dean, School of Information Technology"
-    avatar: "/images/avatar-sm.png"
+    avatar: "/assets/teams/dung-cao.jpg"
     content: "<b>Team Member</b>
     <br/>
     Responsibilities as Implementer: Demonstrate to participants the use of computer modeling on microbial and enzymatic degradation of plastic."

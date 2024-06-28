@@ -54,7 +54,7 @@ const Participants = ({ params }: { params: { lang: string } }) => {
                 <MDXContent content={content} />
               </div>
               <div>
-                <h5>Why should you participate?</h5>
+                <h5>Why participate?</h5>
                 <ul className="mt-6">
                   <li className="relative mb-4 pl-6 flex flex-row">
                     <GoHorizontalRule className={"absolute left-0 top-1.5"} />

@@ -47,7 +47,7 @@ const Posts = ({ params }: { params: { lang: string } }) => {
         <div className="container">
           <div className="row gx-5">
             <div className="w-full">
-              <h5>Coming Soon</h5>
+              <h5>Stay tuned for updates to this section.</h5>
               {/* <div className="row">
                 {currentPosts.map((post: any, index: number) => (
                   <div key={index} className="mb-14 md:col-6">
