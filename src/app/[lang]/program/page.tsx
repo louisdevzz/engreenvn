@@ -48,7 +48,7 @@ const Program = ({ params }: { params: { lang: string } }) => {
         </div>
         <div className="mt-10 text-center">
           <h3>ENGREENVN 2024</h3>
-          <h5 className="font-semibold mt-2">ENGREENVN: Where Words Grow Green</h5>
+          <h5 className="font-semibold mt-2">Where Words Grow Green</h5>
         </div>
         <div className="mt-10">
           {program.map((b:any)=>(
