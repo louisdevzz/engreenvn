@@ -40,7 +40,7 @@ testimonials:
     <br/>
     Lecturing on plastic pollution and the environment, and assisting in the recruitment of participants from several universities in the Mekong Delta via social media."
 
-  - name: "Nguyen Vu Hieu Trung"
+  - name: "Trung Nguyen, Ph.D."
     designation: "Vice Dean, School of Economics and Business Administration"
     avatar: "/images/avatar-sm.png"
     content: "<b>Team Member</b>
