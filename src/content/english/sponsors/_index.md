@@ -2,7 +2,7 @@
 title: "Sponsors"
 meta_title: "Sponsors - ENGREENVN"
 description: "Discover the power of sponsorship with our project website. Find out how you can support and be a part of meaningful initiatives. Join us today!."
-image: "/assets/american.jpg"
+image: "/assets/action.jpg"
 sponsors: 
     - name: "Main Sponsors"
       content: "<b>Citizen Diplomacy Action Fund (CDAF):</b> empowers ExchangeAlumni alumni to support communities through policy-inspired projects, granting over $2.5 million to 277 teams. CDAF showcases unique skills and abilities of ExchangeAlumni, providing tools and resources to tackle global challenges.

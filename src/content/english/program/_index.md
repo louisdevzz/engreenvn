@@ -2,7 +2,7 @@
 title: "Program"
 meta_title: "Program - ENGREENVN"
 description: "Learn about the latest initiatives and projects focused on environmental conservation at ENGREENVN. Join us in creating a more eco-friendly world!."
-image: "/assets/american.jpg"
+image: "/assets/action.jpg"
 program:
     -  title: "The training program includes online and on-site sessions as follows:"
        bullet:

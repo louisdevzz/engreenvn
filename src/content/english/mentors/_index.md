@@ -2,7 +2,7 @@
 title: "Mentors"
 meta_title: "Mentors - ENGREENVN"
 description: "Connect with experienced mentors and take your project to the next level. Get guidance, support, and valuable insights on our mentor project website."
-image: "/assets/american.jpg"
+image: "/assets/action.jpg"
 mentors:
     - image: "/assets/teams/meden.png"
       info: "<b>Dr. Meden F. Isaac-Lam</b>, Associate Professor of Chemistry, College of Engineering and Sciences,Purdue University Northwest (IN, USA), a PhD in Chemistry at the University of California, Davis. I have a post-doctoral experience at the School of Pharmacy, University of California, San Francisco. Later, I taught undergraduate and graduate students at San Francisco State University Department of Chemistry. Currently, I am an Associate Professor of Chemistry at the College of Engineering and Sciences, Purdue University Northwest. I received a Fulbright Scholar Award for the AY 2022-2023."
