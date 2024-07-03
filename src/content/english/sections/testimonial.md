@@ -7,7 +7,7 @@ description: ""
 testimonials:
   - name: "Meden F. Isaac-Lam, Ph.D."
     designation: "Associate Professor of Chemistry"
-    avatar: "/assets/teams/meden.png"
+    avatar: "/assets/teams/meden.jpg"
     content: "<b>Team Lead</b>
     <br/>
     Leading, organizing, and instructing participants in reading and writing journal-style scientific manuscripts, as well as providing instructions on laboratory safety, ethics, data acquisition, and manuscript submission, while coordinating team members' goals."
