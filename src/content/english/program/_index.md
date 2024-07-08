@@ -9,6 +9,4 @@ program:
             - "Online training with 04 modules divided into each weekend"
             - "On-site training at Tan Tao University, Long An"
             - "Online A&Q and orientation"
-    - title: "Detailed information about the training program will be updated soon. Please stay tuned."
-      bullet:
 ---

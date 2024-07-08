@@ -5,6 +5,7 @@ import path from "path";
 import ImageFallback from "@/helpers/ImageFallback";
 import { GoHorizontalRule } from "react-icons/go";
 import { markdownify } from "@/lib/utils/textConverter";
+import Image from "next/image";
 
 const Program = ({ params }: { params: { lang: string } }) => {
   const language = getLanguageObj(params.lang);
@@ -65,6 +66,9 @@ const Program = ({ params }: { params: { lang: string } }) => {
             </div>
             
           ))}
+        </div>
+        <div className="mt-10 flex flex-row items-center justify-center">
+          <Image src="/assets/schedule.jpg" width={1200} height={1200} className="w-full" alt="schedule"/>
         </div>
       </section>
     </>

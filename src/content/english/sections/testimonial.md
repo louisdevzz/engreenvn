@@ -42,7 +42,7 @@ testimonials:
 
   - name: "Trung Nguyen, Ph.D."
     designation: "Vice Dean, School of Economics and Business Administration"
-    avatar: "/images/avatar-sm.png"
+    avatar: "/assets/teams/nguyen-trung.jpg"
     content: "<b>Team Member</b>
     <br/>
     Providing information to participants the impact of green technology and clean sustainable environment on the business sector and the economy in Vietnam."
