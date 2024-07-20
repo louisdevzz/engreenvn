@@ -22,19 +22,19 @@ const Program = ({ params }: { params: { lang: string } }) => {
         meta_title={meta_title}
         description={description}
         image={image}
-      />  
+      />                                                                                                                                                                                                                                                                                                                                                                                                                      
       <section className="section-sm container -mt-10">
         <div className="flex flex-col gap-5 md:gap-0 md:flex-row">
           <ImageFallback
                 className="mb-6 mx-auto"
-                src={"/assets/sponsors/american.jpg"}
+                src={"/assets/sponsors/american.jpg"}                                     
                 width={220}
                 height={120}
                 alt={"american"}
               />
           <ImageFallback
               className="mb-6 mx-auto"
-              src="/assets/sponsors/citizen.jpg"
+              src="/assets/sponsors/citizen.jpg"                          
               width={350}
               height={120}
               alt={"citizen"}
@@ -45,7 +45,7 @@ const Program = ({ params }: { params: { lang: string } }) => {
             width={120}
             height={120}
             alt={"embassy"}
-          />
+          />                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          
         </div>
         <div className="mt-10 text-center">
           <h3>ENGREENVN 2024</h3>

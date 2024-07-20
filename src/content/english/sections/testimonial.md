@@ -21,7 +21,7 @@ testimonials:
 
   - name: "Quang Ta Van, Ph.D."
     designation: "Vice Dean, School of Biotechnology"
-    avatar: "/images/avatar-sm.png"
+    avatar: "/assets/teams/quang_ta.png"
     content: "<b>Team Member</b>
     <br/>
     Coaching, mentoring and supervising participants on the hands-on experiments on how to degrade plastic using biological methods in the laboratory setting."
