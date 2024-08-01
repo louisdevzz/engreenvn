@@ -4,7 +4,6 @@
   "description": "Nextjs and Tailwindcss boilerplate",
   "author": "zeon.studio",
   "license": "MIT",
-  "packageManager": "yarn@1.22.19",
   "scripts": {
     "dev": "yarn generate-json && next dev",
     "build": "yarn generate-json && next build",
@@ -34,7 +33,6 @@
     "next-mdx-remote": "^4.4.1",
     "next-sitemap": "^4.2.3",
     "next-themes": "^0.3.0",
-    "pdfjs-dist": "^4.5.136",
     "prop-types": "^15.8.1",
     "react": "18.3.1",
     "react-dom": "18.3.1",

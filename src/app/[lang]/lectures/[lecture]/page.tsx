@@ -6,6 +6,10 @@ import { defaultLayoutPlugin } from '@react-pdf-viewer/default-layout';
 import '@react-pdf-viewer/core/lib/styles/index.css';
 import '@react-pdf-viewer/default-layout/lib/styles/index.css';
 import { useState } from 'react';
+import dynamic from 'next/dynamic';
+
+
+const ViewPDF = dynamic(()=>import("../../../../components/ViewPDF"),{ssr:false})
 
 const Lecture = () =>{
     const params = useParams<{lecture:string}>()
@@ -21,12 +25,7 @@ const Lecture = () =>{
         <section className="section-sm container -mt-10">
             <h2 className=''>Lecture: {decodeSlug(params.lecture)}</h2>
             <div className='mt-5'>
-                <Worker workerUrl="https://unpkg.com/pdfjs-dist@3.11.174/build/pdf.worker.min.js">
-                    <Viewer
-                    fileUrl={`/lectures/${params.lecture}.pdf`}
-                    plugins={[defaultLayoutPluginInstance]}
-                    />
-                </Worker>
+                <ViewPDF params={params}/>
             </div>
             
         </section>
