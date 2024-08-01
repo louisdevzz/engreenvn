@@ -7,7 +7,7 @@ const ViewPDF = ({params}:{params:any}) =>{
     return(
         <Worker workerUrl="https://unpkg.com/pdfjs-dist@3.11.174/build/pdf.worker.min.js">
             <Viewer
-            fileUrl={`https://engreenvn.info/lectures/${params.lecture}.pdf`}
+            fileUrl={`/lectures/${params.lecture}.pdf`}
             plugins={[defaultLayoutPluginInstance]}
             />
         </Worker>
