@@ -16,12 +16,6 @@ const Lecture = () =>{
         str = str[0].toUpperCase() + str.substring(1);
         return str
     }
-    const Error = () =>{
-        setIsError(true)
-        return(
-            <div></div>
-        )
-    }
     console.log("parms",params.lecture)
     return(
         <section className="section-sm container -mt-10">
@@ -31,7 +25,6 @@ const Lecture = () =>{
                     <Viewer
                     fileUrl={`/lectures/${params.lecture}.pdf`}
                     plugins={[defaultLayoutPluginInstance]}
-                    renderError={()=><Error/>}
                     />
                 </Worker>
             </div>
