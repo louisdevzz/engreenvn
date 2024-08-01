@@ -1,0 +1,50 @@
+{
+  "site": {
+    "title": "ENGREENVN",
+    "base_url": "https://engreenvn.vercel.app/",
+    "base_path": "/",
+    "trailing_slash": false,
+    "favicon": "/assets/logo-engreen.png",
+    "logo": "/assets/logo-engreen.png",
+    "logo_darkmode": "/images/logo-darkmode.png",
+    "logo_width": "90",
+    "logo_height": "100",
+    "logo_text": "ENGREENVN"
+  },
+
+  "settings": {
+    "search": true,
+    "sticky_header": true,
+    "theme_switcher": true,
+    "default_theme": "light",
+    "pagination": 2,
+    "summary_length": 200,
+    "blog_folder": "blog",
+    "default_language": "en",
+    "disable_languages": [],
+    "default_language_in_subdir": false
+  },
+
+  "params": {
+    "contact_form_action": "#",
+    "copyright": "Copyright © 2024 ENGREENVN"
+  },
+
+  "navigation_button": {
+    "enable": true,
+    "label": "Get Started",
+    "link": "https://github.com/zeon-studio/nextplate"
+  },
+
+  "disqus": {
+    "enable": true,
+    "shortname": "ENGREENVN",
+    "settings": {}
+  },
+
+  "metadata": {
+    "meta_author": "ENGREENVN",
+    "meta_image": "/assets/action.jpg",
+    "meta_description": "Discover the fascinating project of Assoc. Prof. Dr. Meden Isaac-Lam on microbial plastic degradation in Vietnam. Immerse yourself in scientific English and hands-on experimentation"
+  }
+}

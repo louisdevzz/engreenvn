@@ -1,0 +1,58 @@
+{
+  "main": [
+    {
+      "name": "Home",
+      "url": "/"
+    },
+    {
+      "name": "Program",
+      "url":"/program"
+    },
+    {
+      "name": "Mentors",
+      "url":"/mentors"
+    },
+    {
+      "name":"Participants",
+      "url":"/participants"
+    },
+    {
+      "name":"Sponsors",
+      "url": "/sponsors"
+    },
+    {
+      "name":"Lectures",
+      "url": "/lectures"
+    },
+    {
+      "name":"Photos and Videos",
+      "url" :"/blog"
+    },
+    {
+      "name":"Contacts Us",
+      "url":"/contacts-us"
+    }
+  ],
+  "footer": [
+    {
+      "name": "Program",
+      "url":"/program"
+    },
+    {
+      "name": "Mentors",
+      "url":"/mentors"
+    },
+    {
+      "name":"Participants",
+      "url":"/participants"
+    },
+    {
+      "name":"Sponsors",
+      "url": "/sponsors"
+    },
+    {
+      "name":"Contacts Us",
+      "url":"/contacts-us"
+    }
+  ]
+}
