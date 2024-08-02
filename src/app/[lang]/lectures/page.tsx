@@ -29,21 +29,21 @@ const Lectures = () =>{
             background:"/assets/lectures/lecture-4.png",
             date: "12/07/2024"
         },
-        // {
-        //     title:"Transforming waste into Wealth: Sustainable business practices",
-        //     background:"/assets/lectures/lecture-5.png",
-        //     date: "12/07/2024"
-        // },
+        {
+            title:"Transforming waste into Wealth",
+            background:"/assets/lectures/lecture-5.png",
+            date: "12/07/2024"
+        },
         {
             title:"Part 2: Scientific english immersion with hands-on experimentation on microbial plastic degradation in vietnam",
             background:"/assets/lectures/lecture-2.png",
             date: "20/07/2024"
         },
-        // {
-        //     title:"Part 1: Final Presentation",
-        //     background:"/assets/lectures/lecture-final-1.png",
-        //     date: "26/07/2024"
-        // },
+        {
+            title:"Plastic and biodegradation methods",
+            background:"/assets/lectures/lecture-final.png",
+            date: "26/07/2024"
+        }
         // {
         //     title:"Part 2: Final Presentation",
         //     background:"/assets/lectures/lecture-final-2.png",

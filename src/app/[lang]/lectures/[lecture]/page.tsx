@@ -13,8 +13,6 @@ const ViewPDF = dynamic(()=>import("../../../../components/ViewPDF"),{ssr:false}
 
 const Lecture = () =>{
     const params = useParams<{lecture:string}>()
-    const [isError, setIsError ] = useState<boolean>(false)
-    const defaultLayoutPluginInstance = defaultLayoutPlugin();
     const decodeSlug = (str: string) =>{
         str =  str.replace(/-/g," ")
         str = str[0].toUpperCase() + str.substring(1);
@@ -27,7 +25,6 @@ const Lecture = () =>{
             <div className='mt-5'>
                 <ViewPDF params={params}/>
             </div>
-            
         </section>
     )
     
