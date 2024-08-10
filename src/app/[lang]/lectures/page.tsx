@@ -35,6 +35,11 @@ const Lectures = () =>{
             date: "12/07/2024"
         },
         {
+            title:"Microbial degradation of plastic",
+            background:"/assets/lectures/lecture-6.png",
+            date: "18/07/2024"
+        },
+        {
             title:"Part 2: Scientific english immersion with hands-on experimentation on microbial plastic degradation in vietnam",
             background:"/assets/lectures/lecture-2.png",
             date: "20/07/2024"
