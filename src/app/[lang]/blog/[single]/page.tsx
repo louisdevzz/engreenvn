@@ -26,6 +26,7 @@ const PostSingle = async ({
 }: {
   params: { single: string; lang: string };
 }) => {
+  console.log("single",params.single)
   const language = getLanguageObj(params.lang);
   const {
     related_post,
@@ -78,12 +79,12 @@ const PostSingle = async ({
                 className="h2 mb-4"
               />
               <ul className="mb-4">
-                <li className="mr-4 inline-block">
+                {/* <li className="mr-4 inline-block">
                   <Link href={`/authors/${slugify(author)}`}>
                     <FaRegUserCircle className={"-mt-1 mr-2 inline-block"} />
                     {humanize(author)}
                   </Link>
-                </li>
+                </li> */}
                 <li className="mr-4 inline-block">
                   <FaRegFolder className={"-mt-1 mr-2 inline-block"} />
                   {categories?.map((category: string, index: number) => (
@@ -132,7 +133,7 @@ const PostSingle = async ({
                   />
                 </div>
               </div>
-              <Disqus className="mt-20" />
+              {/* <Disqus className="mt-20" /> */}
             </article>
           </div>
 
