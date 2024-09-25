@@ -26,12 +26,6 @@ testimonials:
     <br/>
     Coaching, mentoring and supervising participants on the hands-on experiments on how to degrade plastic using biological methods in the laboratory setting."
 
-  - name: "Dung Cao, Ph.D."
-    designation: "Dean, School of Information Technology"
-    avatar: "/assets/teams/dung-cao.jpg"
-    content: "<b>Team Member</b>
-    <br/>
-    Demonstrating to participants the use of computer modeling on microbial and enzymatic degradation of plastic."
 
   - name: "Dien Nguyen Thanh, Ph.D."
     designation: "Head of Research Office"
