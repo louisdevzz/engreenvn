@@ -27,21 +27,21 @@ of our student participants listed below.
 3. Third Place: **Lê Kim Ánh**
 
 <div class="image-grid">
-  <div class="image-item">
+  <div class="image-item-1">
     <img src="/assets/blog/blog_6/image_1_4a7396054f4b.jpeg" alt="Nguyễn Trọng Nhân" />
     **Nguyễn Trọng Nhân**  
     *First Place*  
     *BS Chemical Engineering*  
     *Ho Chi Minh City University of Technology*
   </div>
-  <div class="image-item">
+  <div class="image-item-1">
     <img src="/assets/blog/blog_6/image_1_ebc9b024440e.jpeg" alt="Trần Nhật Mai" />
     **Trần Nhật Mai**  
     *Second Place*  
     *BS Biotechnology*  
     *Nong Lam University*
   </div>
-  <div class="image-item">
+  <div class="image-item-1">
     <img src="/assets/blog/blog_6/image_1_08a4154ccbd8.jpeg" alt="Lê Kim Ánh" />
     **Lê Kim Ánh**  
     *Third Place*  

@@ -19,10 +19,11 @@
 
 .image-grid {
   display: grid;
-  grid-template-columns: repeat(5, 1fr);
-  gap: 15px;
-  margin: 20px 0;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  margin: 20px auto;
   padding: 0 15px;
+  max-width: 1200px;
 
   .image-item {
     text-align: center;
@@ -34,30 +35,120 @@
       border-radius: 8px;
     }
   }
-}
-
-// Add responsive breakpoints
-@media (max-width: 1200px) {
-  .image-grid {
-    grid-template-columns: repeat(4, 1fr);
+  .image-item-1 {
+    text-align: center;         
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    img {
+      width: 200px;
+      height: 360px;
+      object-fit: cover;
+      border-radius: 8px;
+      margin: 0 auto;
+    }
   }
 }
 
+.image-grid-1-container {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  padding: 20px 15px;
+  overflow-x: hidden;
+}
+
+.image-grid-1 {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin: 0 auto;
+  max-width: 1400px;
+
+  .image-item {
+    flex: 1;
+    text-align: center;
+    transition: transform 0.3s ease;
+    min-width: 0;
+    
+    &:hover {
+      transform: translateY(-5px);
+    }
+    
+    img {
+      width: 100%;
+      height: 280px;
+      object-fit: cover;
+      border-radius: 12px;
+      box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    }
+
+    strong {
+      display: block;
+      font-size: 1rem;
+      color: #2d3748;
+    }
+
+    span {
+      font-size: 0.9rem;
+    }
+    
+    p{
+      font-size: 0.8rem;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+  }
+}
+
+// Responsive breakpoints
+@media (max-width: 1200px) {
+  .image-grid-1 {
+    flex-wrap: wrap;
+    
+    .image-item {
+      flex: 0 0 calc(33.333% - 14px);
+    }
+  }
+}
+
+@media (max-width: 900px) {
+  .image-grid-1 {
+    .image-item {
+      flex: 0 0 calc(50% - 10px);
+    }
+  }
+}
+
+@media (max-width: 540px) {
+  .image-grid-1 {
+    .image-item {
+      flex: 0 0 100%;
+    }
+  }
+}
+
+// Update responsive breakpoints
 @media (max-width: 992px) {
   .image-grid {
     grid-template-columns: repeat(3, 1fr);
+    max-width: 900px;
   }
 }
 
 @media (max-width: 768px) {
   .image-grid {
     grid-template-columns: repeat(2, 1fr);
+    max-width: 600px;
   }
 }
 
 @media (max-width: 480px) {
   .image-grid {
     grid-template-columns: 1fr;
+    max-width: 400px;
     
     .image-item img {
       height: 450px;
@@ -112,6 +203,18 @@
       
       img {
         height: 300px;
+      }
+    }
+  }
+}
+
+// Add responsive handling for image-item-1
+@media (max-width: 768px) {
+  .image-grid {
+    .image-item-1 {
+      img {
+        width: 200px;
+        height: 360px;
       }
     }
   }
