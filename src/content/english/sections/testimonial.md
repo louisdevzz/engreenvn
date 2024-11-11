@@ -6,7 +6,7 @@ description: ""
 # Testimonials
 testimonials:
   - name: "Meden F. Isaac-Lam, Ph.D."
-    designation: "Associate Professor of Chemistry"
+    designation: "Professor of Chemistry"
     avatar: "/assets/teams/meden.jpg"
     content: "<b>Team Lead</b>
     <br/>

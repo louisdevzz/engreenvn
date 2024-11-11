@@ -10,11 +10,11 @@ tags: ["Tantaouniversity", "TTU","Engreenvn"]
 draft: false
 ---
 
-On the morning of August 5, 2024, at Tan Tao University, the opening ceremony of the Project "Specialized English combined with Practical Experiment on Decomposing Plastic Waste Using Microorganisms in Vietnam ([<b>engreenvn.info</b>](https://engreenvn.info/))" took place. The project team leaders were Associate Professor, Dr. Medem Isaac-Lam (Purdue University, USA), Dr. Dang Thanh Nhon (Co-team leader), Dr. Ta Van Quang, Dr. Nguyen Thanh Dien, Dr. Nguyen Vu Hieu Trung, and Dr. Cao Tien Dung (Tan Tao University-TTU).
+On the morning of August 5, 2024, at Tan Tao University, the opening ceremony of the Project "Specialized English combined with Practical Experiment on Decomposing Plastic Waste Using Microorganisms in Vietnam ([<b>engreenvn.info</b>](https://engreenvn.info/))" took place. The project team leaders were Professor, Dr. Medem Isaac-Lam (Purdue University, USA), Dr. Dang Thanh Nhon (Co-team leader), Dr. Ta Van Quang, Dr. Nguyen Thanh Dien, Dr. Nguyen Vu Hieu Trung.
 
 ![title](/assets/blog/blog_4/image_1.jpg)
 
-On the morning of August 5, 2024, at Tan Tao University, the opening ceremony of the Project "Specialized English combined with Practical Experiment on Decomposing Plastic Waste Using Microorganisms in Vietnam ([<b>engreenvn.info</b>](https://engreenvn.info/))" took place. The project team leaders were Associate Professor, Dr. Medem Isaac-Lam (Purdue University, USA), Dr. Dang Thanh Nhon (Co-Team Leader), Dr. Ta Van Quang, Dr. Nguyen Thanh Dien, Dr. Nguyen Vu Hieu Trung, and Dr. Cao Tien Dung (Tan Tao University - TTU).
+On the morning of August 5, 2024, at Tan Tao University, the opening ceremony of the Project "Specialized English combined with Practical Experiment on Decomposing Plastic Waste Using Microorganisms in Vietnam ([<b>engreenvn.info</b>](https://engreenvn.info/))" took place. The project team leaders were Professor, Dr. Medem Isaac-Lam (Purdue University, USA), Dr. Dang Thanh Nhon (Co-Team Leader), Dr. Ta Van Quang, Dr. Nguyen Thanh Dien, Dr. Nguyen Vu Hieu Trung.
 
 ![title](/assets/blog/blog_4/image_2.jpg)
 

@@ -14,7 +14,7 @@ On the morning of August 10, 2024, at Tan Tao University, the Closing Ceremony o
 
 ![title](/assets/blog/blog_1/image_1.jpg)
 
-The project team leaders are Associate Professor Dr. Meden Isaac-Lam (Purdue Northwest University, USA), Dr. Dang Thanh Nhon (Co-Team Leader), Dr. Ta Van Quang, Dr. Nguyen Thanh Dien, Dr. Nguyen Vu Hieu Trung, and Dr. Cao Tien Dung (Tan Tao University - TTU).
+The project team leaders are Professor Dr. Meden Isaac-Lam (Purdue Northwest University, USA), Dr. Dang Thanh Nhon (Co-Team Leader), Dr. Ta Van Quang, Dr. Nguyen Thanh Dien, Dr. Nguyen Vu Hieu Trung.
 
 ![title](/assets/blog/blog_1/image_2.jpg)
 

@@ -48,12 +48,12 @@ const Lectures = () =>{
             title:"Plastic and biodegradation methods",
             background:"/assets/lectures/lecture-final.png",
             date: "26/07/2024"
+        },
+        {
+            title:"Plastic Biodegradation Lab Practices",
+            background:"/assets/lectures/lecture-7.png",
+            date: "02/08/2024"
         }
-        // {
-        //     title:"Part 2: Final Presentation",
-        //     background:"/assets/lectures/lecture-final-2.png",
-        //     date: "27/07/2024"
-        // },
     ]
 
     const slugify = (str:string)=> {
