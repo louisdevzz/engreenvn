@@ -42,7 +42,7 @@ const Header = ({
               <small className="font-semibold lg:text-lg md:text-sm text-xl text-[#324350c7] italic">Where Words Grow Green</small>
             </div>
           </div>
-          <div className="md:flex hidden flex-row gap-4 pr-5 text-center">
+          {/* <div className="md:flex hidden flex-row gap-4 pr-5 text-center">
             <div className="flex flex-row gap-4 rounded-lg border border-gray-400 px-5 py-2">
               <div className="flex flex-col text-center">
                 <p className="text-sm lg:text-xl font-semibold">08</p>
@@ -59,7 +59,7 @@ const Header = ({
                 <small>minutes</small>
               </div>
             </div>
-          </div>
+          </div> */}
         </div>
         {/* navbar toggler */}
         <input id="nav-toggle" type="checkbox" className="hidden" />
