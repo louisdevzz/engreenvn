@@ -10,25 +10,27 @@ const similarItems = (
   let tags: string[] = [];
 
   // set categories
-  if (currentItem.frontmatter.categories.length > 0) {
+  if (currentItem.frontmatter?.categories?.length > 0) {
     categories = currentItem.frontmatter.categories;
   }
 
   // set tags
-  if (currentItem.frontmatter.tags.length > 0) {
+  if (currentItem.frontmatter?.tags?.length > 0) {
     tags = currentItem.frontmatter.tags;
   }
 
   // filter by categories
   const filterByCategories = allItems.filter((item: any) =>
     categories.find((category) =>
-      item.frontmatter.categories.includes(category),
+      item.frontmatter?.categories?.includes?.(category) ?? false
     ),
   );
 
   // filter by tags
   const filterByTags = allItems.filter((item: any) =>
-    tags.find((tag) => item.frontmatter.tags.includes(tag)),
+    tags.find((tag) => 
+      item.frontmatter?.tags?.includes?.(tag) ?? false
+    ),
   );
 
   // merged after filter

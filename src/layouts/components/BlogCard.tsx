@@ -16,13 +16,15 @@ const BlogCard = async ({ data, lang }: { data: Post; lang: string }) => {
   return (
     <div className="bg-body dark:bg-darkmode-body">
       {image && (
-        <ImageFallback
-          className="mb-6 w-full rounded"
-          src={image}
-          alt={title}
-          width={445}
-          height={230}
-        />
+        <div className="relative mb-6 aspect-[16/9] w-full overflow-hidden rounded">
+          <ImageFallback
+            className="object-cover"
+            src={image}
+            alt={title}
+            fill={true}
+            sizes="(max-width: 768px) 100vw, 445px"
+          />
+        </div>
       )}
       <h4 className="mb-3">
         <Link href={slugSelector(lang, `/${blog_folder}/${data.slug}`)}>
