@@ -25,10 +25,6 @@
       "url": "/lectures"
     },
     {
-      "name":"Photos and Videos",
-      "url" :"/blog"
-    },
-    {
       "name":"Contacts Us",
       "url":"/contacts-us"
     }
