@@ -25,6 +25,10 @@
       "url": "/lectures"
     },
     {
+      "name":"Blogs",
+      "url": "/photos"
+    },
+    {
       "name":"Contacts Us",
       "url":"/contacts-us"
     }
